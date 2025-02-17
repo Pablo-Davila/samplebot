@@ -4,8 +4,18 @@
 
 Sampleblot is a sample Telegram bot implemented in Python. It serves as an example of a piece of software that can be deployed using Docker.
 
+Your objective is to create a Dockerfile and a docker-compose.yml to build and run a Docker image running the bot.
+
+You can check out the solution in the "solution" branch of this repository.
+
 
 ## Installation
+
+> Important! You will need to get a Telegram bot token from [@BotFather](https://t.me/BotFather) and store it in an environment variables file named ".env" like this: 
+>
+> ```
+> TELEGRAM_TOKEN=YourTelegramToken
+> ```
 
 
 ### Local
