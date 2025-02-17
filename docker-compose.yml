@@ -1,0 +1,9 @@
+
+services:
+
+  samplebot:
+    container_name: samplebot
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
